@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #305722;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+
+  background-color: rgb(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header .logo img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #305722;
+  font-weight: 500;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+}
+
+.content {
+  display: flex;
+  padding: 40px;
+  gap: 30px;
+  background-color: white;
+  align-items: center;
+}
+
+.content img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 16px;
+  color: #305722;
+  line-height: 1.6;
+}
+
+.team-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.team-section h2 {
+  color: #305722;
+  margin-bottom: 30px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-member p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.visi-misi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+}
+
+.visi-misi .text {
+  max-width: 500px;
+}
+
+.visi-misi h3 {
+  color: #305722;
+  margin-bottom: 10px;
+}
+
+.visi-misi ul {
+  padding-left: 20px;
+  color: #333;
+}
+
+.visi-misi img {
+  width: 500px;
+  border-radius: 15px;
+}
+
+.footer {
+  margin-top: 5rem;
+  background-color: #5b7f57;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.footer-column p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-column .icon {
+  width: 30px;
+}
