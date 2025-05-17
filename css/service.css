@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #305722;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+
+  background-color: rgb(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header .logo img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #305722;
+  font-weight: 500;
+}
+
+.faq-section {
+  padding: 40px;
+}
+
+.faq-box {
+  background-color: #c3d9ae;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.faq-box ul {
+  list-style: disc inside;
+}
+
+.contact-box {
+  background-color: rgb(104, 156, 102, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.form-container input,
+.form-container textarea {
+  background-color: rgb(48, 87, 34, 0.15);
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-container button {
+  background-color: #73b374;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 5rem;
+  background-color: #5b7f57;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.footer-column p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-column .icon {
+  width: 30px;
+}
